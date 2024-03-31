@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.other {
+  margin: 0 30px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#big_header {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 10px;
+  width: 80%;
+  outline: none;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  list-style-position: inside;
+  list-style-type: none;
+  margin-bottom: 60px;
+}
+
+.list-items li {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border: thin solid black;
+  border-radius: 20px;
+}
+
+.board, .results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  min-height: 180px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+.board img, 
+.results img {
+  width: 300;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* #results {
+  display: "none";
+}
+
+#results:target {
+  display: block;
+} */
+
+.hide {
+  display: none;
+}
+
+.middle {
+  height: 100vh;
+  justify-content: center;
+  background-image: url("hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#exitButton {
+  position: sticky;
+  bottom: 30px;
+  left: 30px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}

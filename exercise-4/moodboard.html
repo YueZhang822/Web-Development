@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Mood Board</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="grid">
+    <div class="searchContainer middle">
+      <h1 id="big_header">Mood Board</h1>
+      <div class="search">
+        <div class="form">
+          <input id="searchInput" placeholder="Search Keywords"/>
+          <button onclick="runSearch();">Search</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="other">
+    <div class="whole_suggestions hide" id="sugg">
+      <h2>Related Search</h2>
+      <div class="suggestions">
+        <ul class="list-items"></ul>
+      </div>
+    </div>
+
+    <div class="boardContainer hide" id="boardContainer">
+      <h2>My Collects</h2>
+      <div class="board" id="my-board"></div>
+    </div>
+    
+    <div class="res hide" id="res">
+      <h2 class="resh">Search Results</h2>
+      <div class="results" id="results">
+      </div>
+    </div>
+  </div>
+
+    <div class="exitButton hide">
+      <a id="exitButton" href="#" title="Close the search results pane">Clear results</a>
+    </div>
+
+  <script src="apikey.js"></script>
+  <script src="mood.js"></script>
+</body>
+</html>
